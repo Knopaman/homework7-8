@@ -1,0 +1,368 @@
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Light.eot') format('embedded-opentype'),  url('../fonts/OpenSans-Light.woff') format('woff'), url('../fonts/OpenSans-Light.ttf')  format('truetype'), url('../fonts/OpenSans-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'OpenSans-Extrabold';
+    src: url('../fonts/OpenSans-Extrabold.eot?') format('embedded-opentype'),  url('../fonts/OpenSans-Extrabold.woff') format('woff'), url('../fonts/OpenSans-Extrabold.ttf')  format('truetype'), url('../fonts/OpenSans-Extrabold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('../fonts/LeagueGothic-Regular[1].eot');
+    src: local('☺'), url('../fonts/LeagueGothic-Regular[1].woff') format('woff'), url('../fonts/LeagueGothic-Regular[1].ttf') format('truetype'), url('../fonts/LeagueGothic-Regular[1].svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clearfix{
+    clear: both;
+}
+
+header{
+    background: url("../img/header_bg.png") no-repeat;
+    font-family: 'LeagueGothic', Arial,sans-serif;
+}
+
+.back{
+    background: url("../img/overlay.png") no-repeat;
+    background-position-y: 278px;
+}
+
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header_logo{
+    text-decoration: none;
+    display: inline-block;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 34px;
+    float: left;
+    margin-top: 73px;
+}
+
+.header_logo span{
+   color: #c3e54b;
+}
+
+.header_nav{
+    padding-top: 69px;
+}
+.nav_item{
+    float: right;
+    text-decoration: none;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-left: 5.5%;
+}
+
+.home{
+    margin-left: 0px;
+}
+
+.nav_item:hover{
+    border-bottom: 2px solid #edbfff;;
+}
+
+.slider_text{
+    width: 50%;
+    margin-top: 261px;
+    float: left;
+}
+
+.slider_text h1{
+    color: #fefefe;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.slider_text h2{
+    color: #edbfff;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 9px;
+}
+
+.slider_text p{
+    color: white;
+    font-family: 'OpenSans-Light', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 4px;
+}
+
+.slider_phone{
+    background-image: url("../img/iPhone_4.png");
+    width: 274px;
+    height: 434px;
+    float: right;
+    margin-top: 154px;
+    margin-right: 70px;
+}
+
+.phone_link{
+    display: block;
+    background: url("../img/Play.png") no-repeat;
+    width: 76px;
+    height: 76px;
+    margin-left: 51%;
+    margin-top: 56%;
+}
+
+.slider_navigation{
+    background: url("../img/slid_nav.png") no-repeat;
+    width: 83px;
+    height: 17px;
+    float: right;
+    margin-right: 165px;
+    margin-top: 79px;
+    padding-bottom: 57px;
+}
+ /*header end*/
+
+/*content begin*/
+
+.content{
+    background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+    padding-bottom: 67px
+}
+
+.about_company{
+    float: left;
+    width: 33%;
+    margin-top: 75px;
+    padding-left: 12px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+
+}
+
+.about_company_title{
+    padding-left: 53px;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: white;
+    font-size: 30px;
+    font-family: 'LeagueGothic', Arial,sans-serif;
+}
+
+.about_company_text{
+    margin-top: 7px;
+    padding-left: 53px;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: white;
+    font-family: 'OpenSans-Light', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.about_company{
+    background: url("../img/sprite.png") no-repeat;
+    background-position-x: 10px;
+    background-position-y: 6px;
+}
+
+.about_company.sec{
+    background-position-x: -323px;
+}
+
+.about_company.third{
+    background-position-x: -661px;
+}
+
+.about_company_read{
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: white;
+    font-family: 'LeagueGothic', Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 76%;
+    display: inline-block;
+    margin-top: 18px;
+}
+
+.about_company_read:hover{
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+/*slider begin*/
+
+.content_slider{
+    background-color: #f9f9f9;
+}
+.slider_information{
+    float: left;
+    width: 40%;
+    background: url("../img/man.png") no-repeat;
+    margin-top: 117px;
+    padding-left: 62px;
+    padding-top: 14px;
+    box-sizing:  border-box ;
+}
+
+.slider_information_title{
+    text-shadow: 1px 1px 0 white;
+    font-family: 'LeagueGothic', Arial,  sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #454545;
+}
+
+.slider_information_title span {
+    color: #edbfff;
+}
+
+.slider_information_text{
+    text-shadow: 1px 1px 0 white;
+    color: #454545;
+    font-family: 'OpenSans-Light', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-top: 13px;
+}
+
+.slider_information_sec{
+    float: left;
+    width: 46%;
+    margin-top: 117px;
+    padding-top: 14px;
+    margin-left: 13%;
+    box-sizing:  border-box ;
+}
+
+
+.information_block{
+    text-shadow: 1px 1px 0 white;
+    color: #454545;
+    font-family: 'OpenSans-Light', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    padding-left: 64px;
+    margin-top: 18px;
+}
+
+.information_block span{
+    font-weight: 300;
+}
+
+.first_block{
+    background: url("../img/circle1.png") no-repeat;
+}
+
+.sec_block{
+    background: url("../img/circle2.png") no-repeat;
+}
+
+.third_block{
+    background: url("../img/circle3.png") no-repeat;
+    padding-bottom: 20px;
+}
+
+.slider_information_sec a{
+    text-shadow: 1px 1px 0 white;
+    color: #454545;
+    font-family: 'LeagueGothic', Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 348px;
+}
+
+.separator1 {
+    background-color: #e6e6e6;
+    height: 1px;
+    width: 100%;
+    margin-top: 72px;
+}
+
+.slider_navigation2{
+    background: url("../img/slideer2.png");
+    width: 85px;
+    height: 20px;
+    margin-left: 196px;
+    margin-top: -3px;
+}
+
+.logo_nav {
+    text-align: center;
+}
+
+.logo_nav img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*article begin*/
+.article{
+   background-color: #ececec;
+}
+
+.separator2{
+    background-color: #d8d8d8;
+    height: 1px;
+    width: 100%;
+}
+
+.articles {
+    float: left;
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
